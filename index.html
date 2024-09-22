@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                
+                Fast Food Co. 🍔
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item">
+                        <button class="btn btn-warning ml-3">Order Now</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="text-align: center;padding-top: 100px;">
+                    <h1 >Welcome to Fast Food Co. 🍔</h1>
+                    <p>Get ready to taste the difference!</p>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+                <div class="col-md-6">
+                    <!-- Circular Slider -->
+                    <div class="slider">
+                        <div class="slides">
+                            <div class="card"><img src="images\dabeli-1024x823.webp" alt="Image 1"></div>
+                            <div class="card"><img src="images\Vada-Pav (1).webp" alt="Image 2"></div>
+                            <div class="card"><img src="images\cold-coffee-recipe-1.webp" alt="Image 3"></div>
+                            <div class="card"><img src="images\Best-Pav-Bhaji-Recipe-600x900.webp" alt="Image 4"></div>
+                            <div class="card"><img src="images\fresh-tasty-burger.webp" alt="Image 5"></div>
+                            <div class="card"><img src="images\Cake-min-300x200.webp" alt="Image 6"></div>
+                            <div class="card"><img src="images\Sev_Puri_Papdi_Chaat_Recipe_200x160.webp" alt="Image 7"></div>
+                            <div class="card"><img src="images\tiramisu-625_625x350_41443596307.webp" alt="Image 8"></div>
+                            <div class="card"><img src="images\3809505_20Cold-Brewed20Coffee20Photo20by20Buckwheat20Queen20650x465-3b868d11a8fd45aaac98cde0b75fd51e.webp" alt="Image 9"></div>
+                            <div class="card"><img src="images\anatolia-cafe-1510260055.webp" alt="Image 10"></div>
+                            <div class="card"><img src="images\burger-and-french-fries.webp" alt="Image 11"></div>
+                            <div class="card"><img src="images\chai.webp" alt="Image 12"></div>
+                            <div class="card"><img src="images\cheesy-pepperoni-pizza.webp" alt="Image 13"></div>
+                            <div class="card"><img src="images\cock.webp" alt="Image 14"></div>
+                            <div class="card"><img src="images\iced-coffee.webp" alt="Image 15"></div>
+                            <div class="card"><img src="images\mee-langxang-yellow-noodles.webp" alt="Image 16"></div>
+                            <div class="card"><img src="images\men-eating-fast-food-fries-chicken-and-fries.webp" alt="Image 17"></div>
+                            <div class="card"><img src="images\take-out-food-classic-cheeseburger-meal-isolated-on-white.webp" alt="Image 18"></div>
+                            <div class="card"><img src="images\vada-pav.webp" alt="Image 19"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+<div >
+    <section class="features"  style="margin:25px;">
+        <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature-card">
+            <i class="fas fa-utensils"></i>
+            <h2>Fresh Ingredients</h2>
+            <p>We use only the freshest ingredients to ensure our food is always delicious.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <i class="fas fa-clock"></i>
+            <h2>Fast Delivery</h2>
+            <p>We deliver your food fast, so you can get back to your day.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <i class="fas fa-smile"></i>
+            <h2>Customer Satisfaction</h2>
+            <p>We strive to make every customer happy with our food and service.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Menu Categories -->
+<div class="container my-4 text-center">
+    <h2 class="mb-4">Our Menu</h2>
+    <div class="btn-group" role="group" aria-label="Menu Categories">
+        <button class="btn btn-outline-dark filter-btn" data-category="all">All</button>
+        <button class="btn btn-outline-dark filter-btn" data-category="appetizers">Appetizers</button>
+        <button class="btn btn-outline-dark filter-btn" data-category="main">Main Courses</button>
+        <button class="btn btn-outline-dark filter-btn" data-category="desserts">Desserts</button>
+        <button class="btn btn-outline-dark filter-btn" data-category="beverages">Beverages</button>
+        <button class="btn btn-outline-dark filter-btn" data-category="kids">Kids Menu</button>
+    </div>
+</div>
+
+<!-- Menu Items -->
+<div class="container">
+    <div class="row menu-items">
+        <!-- Appetizers -->
+        <div class="col-md-4 menu-item" data-category="appetizers">
+            <img src="images/samosa.jpeg" alt="Samosa" class="img-fluid">
+            <h3>Samosa</h3>
+            <p>Crispy fried pastry filled with spiced potatoes.</p>
+            <p>₹40</p>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="col-md-4 menu-item" data-category="appetizers">
+            <img src="images/paneer ticka.jpeg" alt="Paneer Tikka" class="img-fluid">
+            <h3>Paneer Tikka</h3>
+            <p>Grilled paneer marinated in yogurt and spices.</p>
+            <p>₹150</p>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+
+        <!-- Main Courses -->
+        <div class="col-md-4 menu-item" data-category="main">
+            <img src="images/butt chicken.jpeg" alt="Butter Chicken" class="img-fluid">
+            <h3>Butter Chicken</h3>
+            <p>Rich and creamy tomato-based chicken curry.</p>
+            <p>₹300</p>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="col-md-4 menu-item" data-category="main">
+            <img src="images/paner buter masla.jpeg" alt="Paneer Butter Masala" class="img-fluid">
+            <h3>Paneer Butter Masala</h3>
+            <p>Cottage cheese cooked in rich gravy.</p>
+            <p>₹250</p>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+
+        <!-- Desserts -->
+        <div class="col-md-4 menu-item" data-category="desserts">
+            <img src="images/gulab jamun.jpeg" alt="Gulab Jamun" class="img-fluid">
+            <h3>Gulab Jamun</h3>
+            <p>Sweet, spongy balls soaked in syrup.</p>
+            <p>₹50</p>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="col-md-4 menu-item" data-category="desserts">
+            <img src="images/icecream.jpeg" alt="Gulab Jamun" class="img-fluid">
+            <h3>Ice Cream</h3>
+            <p>Soft, Cold and Tasty Ice with various Flavour.</p>
+            <p>₹30</p>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+
+        <!-- Beverages -->
+        <div class="col-md-4 menu-item" data-category="beverages">
+            <img src="images/masalachai.jpeg" alt="Masala Chai" class="img-fluid">
+            <h3>Masala Chai</h3>
+            <p>Indian spiced tea.</p>
+            <p>₹30</p>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="col-md-4 menu-item" data-category="beverages">
+            <img src="images/cold cofe.jpeg" alt="Masala Chai" class="img-fluid">
+            <h3>Cold Coffee</h3>
+            <p>Refreshing intake.</p>
+            <p>₹30</p>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+
+        <!-- Kids Menu -->
+        <div class="col-md-4 menu-item" data-category="kids">
+            <img src="images/burger.jpeg" alt="Kids Burger" class="img-fluid">
+            <h3>Kids Burger</h3>
+            <p>Mini burger with fries.</p>
+            <p>₹100</p>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Call to Action Section -->
+    <section class="cta"  style="margin:25px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Ready to Order?</h2>
+                    <p>Click the button below to start your order.</p>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2023 Fast Food Co. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script></body>
+</html>
