@@ -22,11 +22,11 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="location.href='#menu'">Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     <li class="nav-item">
-                        <button class="btn btn-warning ml-3">Order Now</button>
+                        <button class="btn btn-warning ml-3" onclick="location.href='#menu'">Order Now</button>
                     </li>
                 </ul>
             </div>
@@ -39,7 +39,7 @@
                 <div class="col-md-6" style="text-align: center;padding-top: 100px;">
                     <h1 >Welcome to Fast Food Co. 🍔</h1>
                     <p>Get ready to taste the difference!</p>
-                    <button class="btn btn-primary">Order Now</button>
+                    <button class="btn btn-primary" onclick="location.href='#menu'">Order Now</button>
                 </div>
                 <div class="col-md-6">
                     <!-- Circular Slider -->
@@ -104,7 +104,7 @@
 
 <!-- Menu Categories -->
 <div class="container my-4 text-center">
-    <h2 class="mb-4">Our Menu</h2>
+    <h2 class="mb-4" id="menu">Our Menu</h2>
     <div class="btn-group" role="group" aria-label="Menu Categories">
         <button class="btn btn-outline-dark filter-btn" data-category="all">All</button>
         <button class="btn btn-outline-dark filter-btn" data-category="appetizers">Appetizers</button>
@@ -201,7 +201,7 @@
                 <div class="col-md-12">
                     <h2>Ready to Order?</h2>
                     <p>Click the button below to start your order.</p>
-                    <button class="btn btn-primary">Order Now</button>
+                    <button class="btn btn-primary" onclick="location.href='#menu'">Order Now</button>
                 </div>
             </div>
         </div>
